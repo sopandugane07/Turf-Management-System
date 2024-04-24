@@ -1,0 +1,49 @@
+Turf Booking System
+
+node command
+
+npm install --save react react-dom @types/react @types/react-dom
+-------------------------------------------------
+Admin
+
+username: Admin1@gmail.com
+pass 	: 12345678
+--------------------------------------------
+Customer
+ 
+username: sopan12@gmail.com
+pass 	: 12345678
+-------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========================================================
+server.port=9007
+
+--------------------------------------------------
+Stop procees tomcat Port
+
+netstat -ano | findstr :8080
+
+taskkill /F /PID <PID>
+
+PID   5404
+----------------------------------------------
+  TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       5404
+  TCP    [::]:8080              [::]:0                 LISTENING       5404
+-----------------------------------------------------
+
