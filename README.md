@@ -1,64 +1,70 @@
-Online Turf Booking Management System
+# Getting Started with Create React App
 
-**Turf Management System**
------------------------------------------------------------------------------------------------------
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-**About**
------------------------------------------------------------------------------------------------------
+## Available Scripts
 
-The Software system is a Turf Management System where respective turfs can be managed by the owners also view All Booking and View all Customer. 
-Also,it is a turf booking system where turf slots can be booked by the users depending upon their preference and availability.
+In the project directory, you can run:
 
-**Technologies Used**
------------------------------------------------------------------------------------------------------
+### `npm start`
 
-1. React js
-2. SpringBoot
-3. MySQL
-4. bootstrap
-5. Maven
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**Tools used**
------------------------------------------------------------------------------------------------------
-1. STS (Spring Tool Suite).
-2. VS Code.
-3. mySQL WorkBench.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-**Features**
------------------------------------------------------------------------------------------------------
-   
-**Admin**
+### `npm test`
 
-* Turf owner can register their turf with details such as name, price, image, location.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-* After registration , turf owner can see all the customers.
+### `npm run build`
 
-* Turf owner can check booking status of the turf for a particular day, with customer details for the booked slot.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**User**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-* User can register for booking purpose.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-* User can book turf slots according to their preference and availability.
+### `npm run eject`
 
-* User can check their booking history.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-**Application Navigation**
------------------------------------------------------------------------------------------------------
-**Admin**
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-* **INFORMATION -** Turf Details such as name, location, price, timings can be saved.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-* **SCHEDULE -** Turf booking slots for a day(s) can be scheduled. Price and slot timings will be general details in default which can be changed for the particular day(s).
+## Learn More
 
-* **HISTORY -** Booking status of the turf for a particular day can be checked, with customer details for the booked slot.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-**User**
+### Code Splitting
 
-* **PROFILE -** Profile details such as name, phone no, email id, Gender and address to be saved by the user.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-* **BOOK SLOT -** User can book turf slots according to their preference and availability.
+### Analyzing the Bundle Size
 
-* **BOOK HISTORY -** User can check their booking history.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
